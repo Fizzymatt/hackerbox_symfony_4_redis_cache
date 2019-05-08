@@ -32,7 +32,7 @@ php bin/console server:run
 
 NOTE: you will need a Redis instance for this
 
-Uncomment the **cache** section in the **config/packages/framework.yaml** file.
+Uncomment the **cache** section in the **config/packages/framework.yaml** file, and alter redis://redis:6379 so that it points at your Redis instance.
 
 Navigate to the project root and run the following command:
 
