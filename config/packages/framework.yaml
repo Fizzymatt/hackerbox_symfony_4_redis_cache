@@ -17,6 +17,7 @@ framework:
         log: true
 
     ## UNCOMMENT THIS SECTION TO ENABLE REDIS CACHING
+    ## You'll need to alter redis://redis:6379 so that it points at your Redis instance
     # cache:
     #     # Put the unique name of your app here: the prefix seed
     #     # is used to compute stable namespaces for cache keys.
