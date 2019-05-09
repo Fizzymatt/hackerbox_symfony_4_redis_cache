@@ -2,7 +2,7 @@
 
 ## Purpose ##
 
-I made this project as part of a tutorial that describes how to implement caching in Symfony 4, both in-memory and with a Redis database.
+I made this project as part of a [tutorial](https://hackerbox.io/articles/symfony-4-redis-cache/) that describes how to implement caching in Symfony 4, both in-memory and with a Redis database.
 
 **NOTE: this project has only been tested on OSX.**
 
