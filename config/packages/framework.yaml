@@ -15,17 +15,3 @@ framework:
     #fragments: true
     php_errors:
         log: true
-
-    ## UNCOMMENT THIS SECTION TO ENABLE REDIS CACHING
-    ## You'll need to alter redis://localhost:6379 so that it points at your Redis instance
-    # cache:
-    #     # Put the unique name of your app here: the prefix seed
-    #     # is used to compute stable namespaces for cache keys.
-    #     prefix_seed: hackerbox_io/symfony_4_redis_cache
-
-    #     # The app cache caches to the filesystem by default.
-    #     # Other options include:
-
-    #     # Redis
-    #     app: cache.adapter.redis
-    #     default_redis_provider: redis://localhost:6379

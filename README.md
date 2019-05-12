@@ -22,7 +22,7 @@ composer install
 
 ### Run the project using in-memory caching ###
 
-Ensure that the **cache** section in the **config/packages/framework.yaml** file is commented out.
+Ensure that the **cache** section in the **config/packages/cache.yaml** file is commented out.
 
 ```bash
 php bin/console server:run
@@ -32,7 +32,7 @@ php bin/console server:run
 
 NOTE: you will need a Redis instance for this
 
-Uncomment the **cache** section in the **config/packages/framework.yaml** file, and alter redis://localhost:6379 so that it points at your Redis instance.
+Uncomment the **cache** section in the **config/packages/cache.yaml** file, and alter redis://localhost:6379 so that it points at your Redis instance.
 
 Navigate to the project root and run the following command:
 
